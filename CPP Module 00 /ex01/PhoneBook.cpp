@@ -72,6 +72,7 @@ void PhoneBook::searchFunc()
         std::cout << "Index (0 - " << max - 1 << ") :" ;
         std::cin >> index;
     } 
+
 	std::cout << "First Name    :" << _contact[index].getFirstName() << std::endl;
 	std::cout << "Last Name     :" << _contact[index].getLastName() << std::endl;
 	std::cout << "Nick Name     :" << _contact[index].getNickName() << std::endl;
