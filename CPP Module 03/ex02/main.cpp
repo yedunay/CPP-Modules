@@ -3,9 +3,24 @@
 
 int main()
 {
-	FragTrap talha("talha");
-
-	talha.takeDamage(20);
-	talha.beRepaired(10);
-	talha.highFivesGuys();
+	ClapTrap clap("YED");
+	clap.currStats();
+	clap.attack("enemy");
+	clap.takeDamage(5);
+	clap.beRepaired(3);
+	clap.currStats();
+	ScavTrap scav("YED");
+	scav.currStats();
+	scav.attack("enemy");
+	scav.takeDamage(20);
+	scav.beRepaired(10);
+	scav.guardGate();
+	scav.currStats();
+	FragTrap frag("YED");
+	frag.currStats();
+	frag.attack("enemy");
+	frag.takeDamage(50);
+	frag.beRepaired(20);
+	frag.highFivesGuys();
+	frag.currStats();
 }

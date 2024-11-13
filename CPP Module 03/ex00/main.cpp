@@ -2,18 +2,30 @@
 # include "ClapTrap.hpp"
 
 int main(){
-	ClapTrap talha("Talha");
+	ClapTrap Yunus("Yunus");
 
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.attack("asd");
-	talha.takeDamage(9);
-	talha.beRepaired(100);
-	talha.attack("asd");
+	Yunus.attack("The Matrix");
+	Yunus.attack("The Matrix");
+	Yunus.attack("The Matrix");
+	Yunus.takeDamage(4);
+	Yunus.attack("The Matrix");
+	Yunus.attack("The Matrix");
+	Yunus.beRepaired(10);
+	Yunus.attack("The Matrix");
+	Yunus.attack("The Matrix");
+	Yunus.currStats();
+	Yunus.attack("The Matrix");
+	Yunus.currStats();
+	Yunus.attack("The Matrix");
+	Yunus.attack("The Matrix");
+	Yunus.currStats();
+	Yunus.takeDamage(4);
+	Yunus.attack("The Matrix");
+	Yunus.takeDamage(1);
+	Yunus.currStats();
+	Yunus.beRepaired(10);
+	Yunus.takeDamage(11);
+	Yunus.attack("The Matrix");
+	Yunus.currStats();
+	Yunus.attack("The Matrix");
 }
