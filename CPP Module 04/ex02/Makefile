@@ -1,4 +1,4 @@
-NAME = Poly
+NAME = Animal
 
 SRCS =	AAnimal.cpp \
 		Brain.cpp \

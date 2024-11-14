@@ -1,22 +1,26 @@
 
 #include "WrongAnimal.hpp"
 
-WrongAnimal::WrongAnimal():type("Default WrongAnimal") {
+WrongAnimal::WrongAnimal():type("Default WrongAnimal") 
+{
 	std::cout << "Default - WrongAnimal - Constructor Called" << std::endl;
 }
 
-WrongAnimal::WrongAnimal(std::string type):type(type) {
+WrongAnimal::WrongAnimal(std::string type):type(type) 
+{
 	std::cout << "Name - WrongAnimal - Constructor Called" << std::endl;
 }
 
-WrongAnimal::WrongAnimal(const WrongAnimal &var) {
+WrongAnimal::WrongAnimal(const WrongAnimal &var) 
+{
 	*this = var;
 	std::cout << "Copy - WrongAnimal - Constructor Called" << std::endl;
 }
 
-WrongAnimal &WrongAnimal::operator=(const WrongAnimal &var) {
+WrongAnimal &WrongAnimal::operator=(const WrongAnimal &var) 
+{
 	this->type = var.type;
-	std::cout << "Operator - WrongAnimal - Called" << std::endl;
+	std::cout << "Assignment Operator - WrongAnimal - Called" << std::endl;
 	return (*this);
 }
 
